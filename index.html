@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartSpend</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4; /* Light gray background */
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+            background-color: #333; /* Darker header for contrast */
+        }
+        .cover-image {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .intro {
+            padding: 50px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .btn {
+            background: #ff9800;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #e68a00;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 0;
+            background-color: #fff; /* White background for features section */
+        }
+        .feature {
+            text-align: center;
+            width: 30%;
+        }
+        .feature img {
+            width: 100%;
+            max-width: 150px; /* Adjust based on your images */
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Intro Section -->
+    <header>
+        <div class="intro">
+            <img src="cover photo.jpg" alt="SmartSpend Cover" class="cover-image">
+            <h1>SmartSpend</h1>
+            <p>Effortlessly manage your budget and track your spending.</p>
+            <nav>
+                <ul>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <a href="https://your-deployed-url.com" class="btn">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <img src="expense-tracking.jpg" alt="Expense Tracking">
+            <h3>Expense Tracking</h3>
+            <p>Keep track of your daily expenses and understand your spending patterns.</p>
+        </div>
+        <div class="feature">
+            <img src="images\Schedule payments.png" alt="Scheduling Payments">
+            <h3>Scheduling Payments</h3>
+            <p>Set up reminders for upcoming payments to avoid late fees.</p>
+        </div>
+        <div class="feature">
+            <img src="images\Print.png" alt="Printing Reports">
+            <h3>Printing Reports</h3>
+            <p>Generate and print detailed reports to visualize your financial health.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SmartSpend. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Link to your JS file -->
+</body>
+</html>
